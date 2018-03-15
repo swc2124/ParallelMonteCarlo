@@ -4,12 +4,13 @@
 # Project               : ClusterFiles
 # File Name             : parallel_IO_test
 # Last Modified by      : swc21
-# Last Modified time    : 2018-03-14 11:38:19
+# Last Modified time    : 2018-03-14 12:03:25
 # ====================================================================
 # 
-import numpy as np
 import datetime
+import numpy as np
 import time
+
 from mpi4py import MPI
 
 save_path = './'

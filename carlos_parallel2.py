@@ -4,13 +4,14 @@
 # Project               : ClusterFiles
 # File Name             : carlos_parallel2
 # Last Modified by      : swc21
-# Last Modified time    : 2018-03-14 11:45:21
+# Last Modified time    : 2018-03-14 12:03:24
 # ====================================================================
 # 
 # carlos_parallel2.py   sol courtney, Columbia U. march 2016
-import numpy as np
 import datetime
+import numpy as np
 import time
+
 from mpi4py import MPI
 filter_types = ['dcmc_i', 'dcmc_j', 'dcmc_h', 'dcmc_ks']
 inclusion_areas = []

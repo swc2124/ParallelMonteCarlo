@@ -1,8 +1,18 @@
+# ====================================================================
+# Author                : swc21
+# Date                  : 2018-03-14 11:49:48
+# Project               : GitHub
+# File Name             : dist_bsize_cluster
+# Last Modified by      : swc21
+# Last Modified time    : 2018-03-14 12:02:40
+# ====================================================================
+# 
 #--[IMPORTS]------------------------------------------------------------------#
 import numpy as np
+import time
+
 from mpi4py import MPI
 from random import shuffle
-import time
 #--[PROGRAM-OPTIONS]----------------------------------------------------------#
 # box size params (Kpc)
 box_min = 50
